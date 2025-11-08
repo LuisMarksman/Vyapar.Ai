@@ -24,7 +24,7 @@
   {
     "id": "msme-support",
     "name": "MSME Growth Support (demo)",
-    "description": "Low-interest loans and training support for micro and small enterprises looking to scale operations.",
+    "description": "Low-interest loans and  training support for micro and small enterprises looking to scale operations.",
     "eligible_turnover_max": 2000000,
     "eligible_employees_max": 20,
     "industry_tags": ["services", "retail", "manufacturing"],
