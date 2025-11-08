@@ -1,9 +1,9 @@
 from fastapi import APIRouter, UploadFile, File, Depends
 from sqlmodel import Session
 from pathlib import Path
-from ..db import get_session
-from ..models import Expense
-from .. import ai_engine  # ai_engine.ocr.parse(image_path)
+from backend.db import get_session
+from backend.models import Expense
+from backend import ai_engine  # ai_engine.ocr.parse(image_path)
 
 router = APIRouter()
 UPLOADS = Path("uploads"); UPLOADS.mkdir(exist_ok=True)

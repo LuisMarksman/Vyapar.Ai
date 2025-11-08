@@ -1,8 +1,8 @@
 from fastapi import APIRouter, Depends
 from sqlmodel import Session
-from ..db import get_session
-from ..models import User
-from ..schemas import UserCreate
+from backend.db import get_session
+from backend.models import User
+from backend.schemas import UserCreate
 
 router = APIRouter()
 

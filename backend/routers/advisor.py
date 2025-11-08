@@ -1,8 +1,8 @@
 from fastapi import APIRouter, Depends
 from sqlmodel import Session, select
-from ..db import get_session
-from ..models import Invoice, SKU
-from .. import ai_engine
+from backend.db import get_session
+from backend.models import Invoice, SKU
+from backend import ai_engine
 
 router = APIRouter()
 def current_user_id(): return 1

@@ -1,10 +1,10 @@
 from fastapi import APIRouter, Depends, HTTPException
 from sqlmodel import Session, select
 from pathlib import Path
-from ..db import get_session
-from ..models import Invoice, SKU
-from ..schemas import InvoiceCreate
-from ..services.telegram import notify_invoice_created
+from backend.db import get_session
+from backend.models import Invoice, SKU
+from backend.schemas import InvoiceCreate
+from backend.services.telegram import notify_invoice_created
 import asyncio, os
 
 try:

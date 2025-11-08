@@ -1,8 +1,8 @@
 from fastapi import APIRouter, Depends
 from sqlmodel import Session
-from ..db import get_session
-from ..models import User
-from .. import ai_engine
+from backend.db import get_session
+from backend.models import User
+from backend import ai_engine
 
 router = APIRouter()
 

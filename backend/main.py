@@ -3,10 +3,10 @@ from fastapi.middleware.cors import CORSMiddleware
 from sqlmodel import Session, select
 
 # ✅ Use absolute imports (for Render)
-from db import init_db, get_session
-from routers import auth, invoices, skus, receipts, schemes, advisor
-from models import Invoice, SKU
-import ai_engine
+from backend.db import init_db, get_session
+from backend.routers import auth, invoices, skus, receipts, schemes, advisor
+from backend.models import Invoice, SKU
+import backend.ai_engine as ai_engine
 
 # -------------------------------
 # App initialization
