@@ -1,0 +1,90 @@
+[
+  {
+    "id": "pmegp",
+    "name": "Prime Minister's Employment Generation Programme (PMEGP)",
+    "description": "Credit-linked subsidy scheme for new micro enterprises.",
+    "eligible_turnover_max": 5000000,
+    "eligible_employees_max": 50,
+    "industry_tags": ["manufacturing", "services", "retail"],
+    "benefit": "Subsidy up to 25% on project cost",
+    "docs_required": ["Udyam certificate", "PAN", "bank statement"],
+    "url": "https://example.gov/pmegp"
+  },
+  {
+    "id": "cgtmse",
+    "name": "Credit Guarantee Fund Trust for Micro and Small Enterprises (CGTMSE)",
+    "description": "Credit guarantee for collateral-free loans to MSMEs.",
+    "eligible_turnover_max": 10000000,
+    "eligible_employees_max": 100,
+    "industry_tags": ["manufacturing", "services", "retail"],
+    "benefit": "Collateral-free loan guarantees",
+    "docs_required": ["Udyam certificate", "PAN", "loan application"],
+    "url": "https://example.gov/cgtmse"
+  },
+  {
+    "id": "msme-support",
+    "name": "MSME Growth Support (demo)",
+    "description": "Low-interest loans and training support for micro and small enterprises looking to scale operations.",
+    "eligible_turnover_max": 2000000,
+    "eligible_employees_max": 20,
+    "industry_tags": ["services", "retail", "manufacturing"],
+    "benefit": "Low-interest loans, training",
+    "docs_required": ["PAN", "Aadhaar", "bank statement"],
+    "url": "https://example.gov/msme-support"
+  },
+  {
+    "id": "kcc",
+    "name": "Kisan Credit Card (KCC)",
+    "description": "Short-term credit for farmers for agricultural needs.",
+    "eligible_turnover_max": 200000,
+    "eligible_employees_max": 5,
+    "industry_tags": ["agriculture"],
+    "benefit": "Short-term credit with subsidized interest",
+    "docs_required": ["land records", "Aadhaar", "PAN"],
+    "url": "https://example.gov/kcc"
+  },
+  {
+    "id": "startup-india",
+    "name": "Startup India (recognition)",
+    "description": "Recognition & benefits for startups including tax exemptions and easier compliance.",
+    "eligible_turnover_max": 10000000,
+    "eligible_employees_max": 200,
+    "industry_tags": ["technology", "services", "manufacturing"],
+    "benefit": "Tax sops and recognition",
+    "docs_required": ["Incorporation docs", "PAN", "founder IDs"],
+    "url": "https://example.gov/startupindia"
+  },
+  {
+    "id": "food-processing",
+    "name": "Food Processing Support (demo)",
+    "description": "Capital subsidy and technical support for food processing units.",
+    "eligible_turnover_max": 8000000,
+    "eligible_employees_max": 150,
+    "industry_tags": ["food", "manufacturing"],
+    "benefit": "Capital subsidy up to 20%",
+    "docs_required": ["Udyam", "PAN", "project report"],
+    "url": "https://example.gov/foodprocessing"
+  },
+  {
+    "id": "standup-india",
+    "name": "Stand-Up India",
+    "description": "Facilitates loans between ₹10 lakh and ₹1 crore to SC/ST and women entrepreneurs.",
+    "eligible_turnover_max": 20000000,
+    "eligible_employees_max": 250,
+    "industry_tags": ["services", "retail", "manufacturing"],
+    "benefit": "Business loans for under-represented entrepreneurs",
+    "docs_required": ["PAN", "Aadhaar", "SC/ST certificate if applicable"],
+    "url": "https://example.gov/standupindia"
+  },
+  {
+    "id": "working-capital",
+    "name": "Working Capital Support (demo)",
+    "description": "Short-term working capital assistance with subsidized interest rates for MSMEs.",
+    "eligible_turnover_max": 15000000,
+    "eligible_employees_max": 120,
+    "industry_tags": ["manufacturing", "services"],
+    "benefit": "Subsidized working capital",
+    "docs_required": ["bank statement", "PAN"],
+    "url": "https://example.gov/workingcapital"
+  }
+]
